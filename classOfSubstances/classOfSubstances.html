@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="classOfSubstances.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="classOfSubstances.js"></script>
+    <title>Класс веществ</title>
+</head>
+
+<body>
+    <header class="header">
+        <a href="../sectionOfChemistry/sectionOfChemistry.html">Раздел химии</a>
+        <a href="classOfSubstances.html">Класс веществ</a>
+        <a href="../substances/substances.html">Вещества</a>
+        <a href="../discoverer/discoverer.html">Открыватель</a>
+        
+    </header>
+
+    <table id="table">
+        <caption class="nameTable">Класс веществ</caption>
+        <tr>
+            <th>id</th>
+            <th>Класс вещества</th>
+            <th>Описание</th>
+            <th>Действие</th>
+        </tr>
+    </table>
+
+    <form id="form">
+
+        <label for="class">Класс вещества</label>
+        <input type="text" id="class" name="class">
+        <label for="description_class">Описание</label>
+        <input type="text" id="description_class" name="description_class">
+        <div class="submit-btn-wrapper">
+            <input id="submitBtn" class="btn-submit" type="submit" value="Добавить"></input>
+        </div>
+
+    </form>
+</body>

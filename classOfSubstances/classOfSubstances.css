@@ -1,0 +1,99 @@
+.header {
+  display: flex;
+  justify-content: right;
+  background-color: #f9e7e5;
+  height: 50px;
+  justify-content: center;
+}
+.header a {
+display: flex;
+  margin-right: 50px;
+  color: rgb(15, 15, 15);
+  font-size: 25px;
+  align-items: center;
+  
+}
+table {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    border: 1px solid grey;
+    border-collapse: collapse;
+    width: 900px;
+    height: 350px;
+    text-align: center;
+   
+ }
+ /* границы ячеек первого ряда таблицы */
+ th {
+    border: 1px solid grey;
+    background: #e4e7e9;
+
+ }
+ /* границы ячеек тела таблицы */
+ td {
+    border: 1px solid grey;
+ }
+ td:first-child {
+   padding: 10px 20px;
+ }
+
+ tr:nth-child(3n+1) {
+  background: rgb(238 250 251);
+}
+tr:nth-child(3n+2) {
+  background: #f9e7e5;
+}
+tr:nth-child(3n+3) {
+  background: #efe7f9;
+}
+ .nameTable {      
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+    font-style: italic;
+    height: 50px;
+ }
+ #form {
+  margin-top: 30px;
+  
+ }
+ 
+.submit-btn-red {
+  background-color: red;
+  margin-left: 10px;
+}
+
+.table-btn {
+  cursor: pointer;
+  margin: 4px 0;
+}
+
+.table-btn:hover {
+ opacity: 50%;
+}
+
+.edit-btn {
+  color: dodgerblue;
+}
+
+.remove-btn {
+  color: red;
+}
+
+.btn-submit {
+  background-color: rgb(60, 184, 60);
+  cursor: pointer;
+  margin-left: 25px;
+  border-width: 1px;
+  padding: 3px;
+}
+  
+#form label {
+  margin-left: 20px;
+}
+
+.submit-btn-wrapper {
+  width: 100%;
+  display: flex;
+}

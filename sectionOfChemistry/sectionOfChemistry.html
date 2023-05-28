@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sectionOfChemistry.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="sectionOfChemistry.js"></script>
+    <title>Раздел химии</title>
+</head>
+
+<body>
+    <header class="header">
+        <a href="sectionOfChemistry.html">Раздел химии</a>
+        <a href="../classOfSubstances/classOfSubstances.html">Класс веществ</a>
+        <a href="../substances/substances.html">Вещества</a>
+        <a href="../discoverer/discoverer.html">Открыватель</a>
+        
+    </header>
+
+    <table id="table">
+        <caption class="nameTable">Раздел химии</caption>
+        <tr>
+            <th>id</th>
+            <th>Формула</th>
+            <th>Органическая</th>
+            <th>Неорганическая</th>
+            <th>Действие</th>
+        </tr> 
+    </table>
+
+    <form id="form">
+        <label for="formula">Формула</label>
+        <input type="text" id="formula" name="formula">
+        <label for="org_neorg">Выберите класс</label>
+        <select id="org_neorg" name="org_neorg">
+            <option value="true">Органическая</option>
+            <option value="false">Неорганическая</option>
+        </select>
+        
+        <div class="submit-btn-wrapper">
+            <input id="submitBtn" class="btn-submit" type="submit" value="Добавить"></input>
+        </div>
+        
+    </form>
+</body>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="discoverer.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="discoverer.js"></script>
+    <title>Открыватель</title>
+</head>
+
+<body>
+    <header class="header">
+        <a href="../sectionOfChemistry/sectionOfChemistry.html">Раздел химии</a>
+        <a href="../classOfSubstances/classOfSubstances.html">Класс веществ</a>
+        <a href="../substances/substances.html">Вещества</a>
+        <a href="discoverer.html">Открыватель</a>
+        
+    </header>
+
+    <table id="table">
+        <caption class="nameTable">Открыватель</caption>
+        <tr>
+            <th>id</th>
+            <th>ФИО Открывателя</th>
+            <th>Страна открытия</th>
+            <th>Действие</th>
+        </tr> 
+    </table>
+
+    <form id="form">
+
+        <label for="opener">ФИО Открывателя</label>
+        <input type="text" id="opener" name="opener">
+        <label for="discovererCountry">Страна открытия</label>
+        <input type="text" id="discovererCountry" name="discovererCountry">
+        <div class="submit-btn-wrapper">
+            <input id="submitBtn" class="btn-submit" type="submit" value="Добавить"></input>
+        </div>
+        
+    </form>
+</body>

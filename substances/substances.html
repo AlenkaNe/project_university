@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="substances.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="substances.js"></script>
+    <title>Вещества</title>
+</head>
+
+<body>
+    <header class="header">
+        <a href="../sectionOfChemistry/sectionOfChemistry.html">Раздел химии</a>
+        <a href="../classOfSubstances/classOfSubstances.html">Класс веществ</a>
+        <a href="substances.html">Вещества</a>
+        <a href="../discoverer/discoverer.html">Открыватель</a>
+        
+    </header>
+
+    <table id="table">
+        <caption class="nameTable">Химические вещества</caption>
+        <tr>
+            <th>id</th>
+            <th>Название IUPAC</th>
+            <th>Описание</th>
+            <th>Формула</th>
+            <th>Класс</th>
+            <th>Открыватель</th>
+            <th>Действие</th>
+        </tr> 
+    </table>
+
+    <form id="form">
+
+        <label for="nameIUPAC">Название</label>
+        <input type="text" id="nameIUPAC" name="nameIUPAC">
+        <label for="description">Описание</label>
+        <input type="text" id="description" name="description">
+        <label for="formula">Формула</label>
+        <input type="text" id="formula" name="formula">
+        <label for="class">Класс</label>
+        <input type="text" id="class" name="class">
+        <label for="opener">Открыватель</label>
+        <input type="text" id="opener" name="opener">
+        <div class="submit-btn-wrapper">
+            <input id="submitBtn" class="btn-submit" type="submit" value="Добавить"></input>
+        </div>
+        
+    </form>
+</body>
